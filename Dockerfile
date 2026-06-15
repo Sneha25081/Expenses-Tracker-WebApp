@@ -26,7 +26,7 @@ RUN mvn clean install -DskipTests=true
 
 # Import small size java image
 
-FROM openjdk:17-alpine
+FROM eclipse-temurin:17-jre
 
 WORKDIR /app 
 
